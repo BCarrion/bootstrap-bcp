@@ -6723,5 +6723,15 @@ button.close {
   }
 }
 body {
-  padding-top: 60px;
+  padding-top: 50px;
+}
+body .padding {
+  padding: 3em 0;
+}
+body .theme {
+  background-color: #fed2fd;
+}
+body .dark {
+  background-color: #82037e;
+  color: #ffffff;
 }
