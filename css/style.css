@@ -9065,21 +9065,30 @@ body {
   padding-top: 50px;
 }
 body section.landing {
+  background-image: -webkit-radial-gradient(circle, #40bd15, #022650);
+  background-image: radial-gradient(circle, #40bd15, #022650);
+  background-repeat: no-repeat;
+  padding: 9em 0;
   text-align: center;
 }
 body section.landing h1 {
   color: #0456b4;
   font-size: 8em;
+  text-shadow: 2px, 3px, 2px, rgba(0, 0, 0, 0.1);
 }
 body section.landing h2 {
   font-size: 2em;
   padding: 0.5em 0;
+  text-shadow: 2px, 3px, 2px, rgba(255, 255, 255, 0.1);
 }
 body .padding {
   padding: 3em 0;
 }
 body .theme {
   background-color: #fed2fd;
+}
+body .theme-alterno {
+  background-color: #52e61f;
 }
 body .dark {
   background-color: #1C1C1C;
