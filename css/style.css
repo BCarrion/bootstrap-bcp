@@ -9061,6 +9061,10 @@ button.close {
   overflow: visible;
   clip: auto;
 }
+body.fondo {
+  background-image: url("../img/fondo8.jpg");
+  margin: 150px;
+}
 body {
   padding-top: 50px;
 }
@@ -9080,6 +9084,28 @@ body section.landing h2 {
   font-size: 2em;
   padding: 0.5em 0;
   text-shadow: 2px, 3px, 2px, rgba(255, 255, 255, 0.1);
+}
+body section.landing_2 h1 {
+  text-align: center;
+  color: #ff3333;
+  font-size: 5.1em;
+}
+body section.landing_2 h1 strong {
+  padding: .2em .2em;
+  background: rgba(0, 255, 0, 0.2);
+  font-size: 1.3em;
+}
+body section.landing_2 h1 span {
+  color: #FAFAFA;
+  background: rgba(0, 255, 0, 0.2);
+  font-size: .7em;
+}
+body section.landing_2 h1 a {
+  color: #000000;
+}
+body .navbar-alterno {
+  background-color: #2E2E2E;
+  color: #2E2E2E;
 }
 body .padding {
   padding: 3em 0;

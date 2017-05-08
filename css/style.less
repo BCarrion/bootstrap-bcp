@@ -5,8 +5,11 @@
 @import "../less/variables.less";
 @import "../font-awesome/less/font-awesome.less";
 
+body.fondo{
+  background-image: url("../img/fondo8.jpg");
+  margin: 150px;
+}
 body{
-
   section.landing{
     #gradient > .radial(lighten(#21610B, 20%), darken(spin(#B404AE,270),20%));
     padding: 9em 0;
@@ -21,6 +24,34 @@ body{
       padding: 0.5em 0;
       text-shadow: 2px, 3px, 2px, rgba(255,255,255,0.1);
     }
+  }
+
+  section.landing_2{
+    h1{
+      text-align: center;
+      color: lighten(#FF0000, 10%);
+      font-size: 5.1em;
+
+      strong{
+        padding: .2em .2em;
+        background: fade(#00FF00, 20%);
+        font-size: 1.3em;
+      }
+
+      span{
+        color: #FAFAFA;
+        background: fade(#00FF00, 20%);
+        font-size: .7em;
+      }
+
+      a{
+        color: #000000;
+      }
+    }
+  }
+  .navbar-alterno{
+    background-color:#2E2E2E;
+    color: #2E2E2E;
   }
   .padding{
     padding: 3em 0;
